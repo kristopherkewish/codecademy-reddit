@@ -1,0 +1,26 @@
+.topComment {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        'profilePic username'
+        'profilePic comment';
+    background-color: rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+.profilePic {
+    grid-area: profilePic;
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+.username {
+    font-weight: bold;
+    grid-area: username;
+}
+
+.comment {
+    grid-area: comment;
+}

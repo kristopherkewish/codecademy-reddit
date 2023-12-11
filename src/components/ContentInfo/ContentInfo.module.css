@@ -1,0 +1,50 @@
+.contentInfo {
+    display: grid;
+    grid-template-areas: 
+        'icon subreddit date'
+        'icon username votes';
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 15%;
+    max-height:80px;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    align-items: center;
+    justify-items: center;
+    background-color: white;
+}
+
+.subreddit {
+    grid-area: subreddit;
+    justify-self: left;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: var(--dark-blue);
+}
+
+.date {
+    grid-area: date;
+    font-size: 0.8rem;
+    color: var(--dark-blue);
+}
+
+.username {
+    grid-area: username;
+    justify-self: left;
+    color: var(--orange);
+}
+
+.icon {
+    grid-area: icon;
+    width: 100%;
+    height: 75%;
+    object-fit: contain;
+    overflow: hidden;
+}
+
+.votes {
+    grid-area: votes;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--mid-blue);
+}

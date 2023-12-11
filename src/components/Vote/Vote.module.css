@@ -1,0 +1,34 @@
+.vote {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    padding: 0.8rem;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    background-color: white;
+}
+
+.voteBtn {
+    font-size: 2rem;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    background-color: var(--orange);
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.voteBtn:hover {
+    color: var(--orange);
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.voteBtn:active {
+    color: white;
+    background-color: var(--dark-blue);
+    transition: none;   
+}

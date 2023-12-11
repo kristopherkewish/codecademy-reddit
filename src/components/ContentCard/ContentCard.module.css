@@ -1,0 +1,28 @@
+@import '../../assets/styles/global/globalVariables.css';
+
+.contentCard {
+    background-color: white;
+    width: 60%;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.media {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-style: italic;
+    padding: 0.5rem;
+    background-color: var(--dark-blue);
+}
