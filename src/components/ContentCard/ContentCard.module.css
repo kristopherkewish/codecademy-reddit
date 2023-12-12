@@ -23,6 +23,22 @@
     width: 100%;
     color: white;
     font-style: italic;
-    padding: 0.5rem;
+    padding: 2rem;
     background-color: var(--dark-blue);
+}
+
+.description p {
+    padding: 0rem 1rem;
+}
+
+.description a {
+    color: var(--orange);
+}
+
+.selftext {
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    background-color: var(--light-blue);
+    padding: 1rem;
 }
